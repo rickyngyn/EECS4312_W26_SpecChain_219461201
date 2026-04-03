@@ -1,35 +1,70 @@
 {
-  "manual": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
-    "tests_count": 10,
-    "traceability_links": 12,
-    "review_coverage": 0.63,
-    "traceability_ratio": 0.87,
-    "testability_rate": 0.75,
-    "ambiguity_ratio": 0.12
+  "pipelines": {
+    "manual": {
+      "pipeline": "manual",
+      "dataset_size": 1169,
+      "persona_count": 5,
+      "requirements_count": 0,
+      "tests_count": 20,
+      "traceability_links": 5,
+      "review_coverage": 0.05,
+      "traceability_ratio": 0.0,
+      "testability_rate": 0.0,
+      "ambiguity_ratio": 0.0
+    },
+    "automated": {
+      "pipeline": "automated",
+      "dataset_size": 1169,
+      "persona_count": 5,
+      "requirements_count": 0,
+      "tests_count": 10,
+      "traceability_links": 5,
+      "review_coverage": 1.0,
+      "traceability_ratio": 0.0,
+      "testability_rate": 0.0,
+      "ambiguity_ratio": 0.0
+    },
+    "hybrid": {
+      "pipeline": "hybrid",
+      "dataset_size": 1169,
+      "persona_count": 5,
+      "requirements_count": 0,
+      "tests_count": 12,
+      "traceability_links": 5,
+      "review_coverage": 0.05,
+      "traceability_ratio": 0.0,
+      "testability_rate": 0.0,
+      "ambiguity_ratio": 0.0
+    }
   },
-  "automated": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
-    "tests_count": 10,
-    "traceability_links": 12,
-    "review_coverage": 0.65,
-    "traceability_ratio": 0.88,
-    "testability_rate": 0.80, 
-    "ambiguity_ratio": 0.12
-  },
-  "hybrid": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
-    "tests_count": 9,
-    "traceability_links": 12,
-    "review_coverage": 0.67,
-    "traceability_ratio": 0.88,
-    "testability_rate": 0.87, 
-    "ambiguity_ratio": 0.12
+  "comparison": {
+    "persona_count": {
+      "best_pipeline": "manual",
+      "best_value": 5
+    },
+    "requirements_count": {
+      "best_pipeline": "manual",
+      "best_value": 0
+    },
+    "tests_count": {
+      "best_pipeline": "manual",
+      "best_value": 20
+    },
+    "review_coverage": {
+      "best_pipeline": "automated",
+      "best_value": 1.0
+    },
+    "traceability_ratio": {
+      "best_pipeline": "manual",
+      "best_value": 0.0
+    },
+    "testability_rate": {
+      "best_pipeline": "manual",
+      "best_value": 0.0
+    },
+    "ambiguity_ratio": {
+      "best_pipeline": "manual",
+      "best_value": 0.0
+    }
   }
 }
