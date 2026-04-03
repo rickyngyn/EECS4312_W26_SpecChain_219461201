@@ -3,14 +3,146 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Start a meditation session without crashing",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Open the meditation app",
+        "Select any available meditation session",
+        "Press play"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The selected meditation session starts successfully and the app does not crash.",
+      "notes": "Revised from the automated stability test to match the narrower hybrid requirement for session startup."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Maintain uninterrupted audio playback during a session",
+      "steps": [
+        "Open the meditation app",
+        "Start a meditation session",
+        "Allow the session to continue playing for its intended duration without pressing pause or stop"
+      ],
+      "expected_result": "Audio continues playing for the session unless the user intentionally interrupts playback.",
+      "notes": "Added to directly test the hybrid requirement about unexpected audio stoppage."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Browse available guided meditations and courses",
+      "steps": [
+        "Open the meditation app",
+        "Navigate to the main content browsing area",
+        "Review the available listed content"
+      ],
+      "expected_result": "The app displays a browsable library containing guided meditations or courses that the user can select.",
+      "notes": "Rewritten from the vague automated content variety test to focus on direct accessibility of content."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Verify content items are clearly labeled",
+      "steps": [
+        "Open the meditation app",
+        "Go to a screen showing multiple content items",
+        "Inspect the labels or titles shown for each item"
+      ],
+      "expected_result": "Each selectable content item has a clear title or label that distinguishes it from other items.",
+      "notes": "Added to support the hybrid requirement on clear content identification."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Access core meditation content before payment or donation",
+      "steps": [
+        "Install and open the app as a first time user",
+        "Proceed through any initial onboarding screens",
+        "Attempt to open and play available meditation content without making a payment or donation"
+      ],
+      "expected_result": "The user can access and play at least one meditation session before being required to pay or donate.",
+      "notes": "Revised from the automated free access test to match the hybrid requirement for trial access."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Check clarity of payment or donation prompts",
+      "steps": [
+        "Open the app and navigate to a point where a payment or donation prompt is displayed",
+        "Read the prompt text and available action buttons",
+        "Determine whether the prompt indicates if payment is optional or required"
+      ],
+      "expected_result": "The payment or donation prompt clearly states whether the user can skip it and continue using available content.",
+      "notes": "Added to make donation and paywall messaging testable."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Dismiss an optional payment prompt and continue using free content",
+      "steps": [
+        "Open the app as a user who has not paid or donated",
+        "Dismiss an optional payment or donation prompt",
+        "Attempt to access content that is designated as free or trial content"
+      ],
+      "expected_result": "After dismissing the optional prompt, the user can still access content that is meant to remain free or available for trial.",
+      "notes": "Added to verify that optional prompts do not incorrectly block previously available content."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Begin a session within three navigation actions from home",
+      "steps": [
+        "Open the app to the home screen",
+        "Count the user actions needed to reach a playable meditation session",
+        "Start the selected session"
+      ],
+      "expected_result": "The user can begin a meditation session within three actions from the home screen, excluding playback time.",
+      "notes": "Rewritten from the vague habit building test into a measurable routine support test."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "View a completed meditation session in activity history",
+      "steps": [
+        "Open the app",
+        "Complete a meditation session",
+        "Open the session history or activity record"
+      ],
+      "expected_result": "The completed meditation session appears in a user visible history or equivalent record.",
+      "notes": "Revised to support habit building through visible completed activity rather than unsupported reminder features."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Navigate between home, content browsing, and playback screens",
+      "steps": [
+        "Open the app on the home screen",
+        "Navigate to the content browsing screen",
+        "Open a meditation session and then return to the previous screen"
+      ],
+      "expected_result": "Each screen transition works correctly and the user can return from playback to the previous screen without a broken navigation path.",
+      "notes": "Rewritten from the broad ease of use test to focus on navigation flow."
+    },
+    {
+      "test_id": "T_hybrid_11",
+      "requirement_id": "FR_hybrid_11",
+      "scenario": "Verify primary controls are visible on relevant screens",
+      "steps": [
+        "Open a meditation playback screen",
+        "Check for visible play or pause controls and back navigation",
+        "Open a content screen and inspect the available primary actions"
+      ],
+      "expected_result": "Relevant primary controls such as play, pause, and back navigation are visible on the appropriate screens.",
+      "notes": "Added to directly test discoverability of core controls."
+    },
+    {
+      "test_id": "T_hybrid_12",
+      "requirement_id": "FR_hybrid_12",
+      "scenario": "Inspect readability of interface labels",
+      "steps": [
+        "Open the app",
+        "Visit major navigation and content screens",
+        "Inspect menu items, buttons, and major section labels"
+      ],
+      "expected_result": "Key interface labels are present and readable on major navigation and content screens.",
+      "notes": "Added to make usability and label clarity testable."
     }
   ]
 }

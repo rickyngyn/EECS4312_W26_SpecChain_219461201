@@ -2,30 +2,163 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Reliability Focused Meditation User",
+      "description": "A user who depends on the meditation app to start and complete sessions without crashes, audio interruptions, or other technical failures.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Play meditation sessions without interruption",
+        "Use the app reliably during regular meditation sessions",
+        "Avoid technical issues that disrupt a session"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "The app crashes when starting or playing sessions",
+        "Audio stops unexpectedly during meditation",
+        "Technical problems interrupt the meditation experience"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Using the app during meditation sessions",
+        "Often listening through speakers or earbuds",
+        "Returning to the app regularly and expecting stable playback"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Meditation sessions must start and continue without crashing",
+        "Audio playback must remain stable throughout a session",
+        "Core app functions must work consistently across repeated use"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "a81954ee-ab72-4c62-851c-f7681391f1ad",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "59a3d4a2-d838-4938-94f1-69f5c5100595"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined this persona to focus only on reliability and playback issues supported by the review group. Removed unsupported claims about progress tracking and customization."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Content Seeking Meditation Learner",
+      "description": "A user who comes to the app for guided meditations, courses, and calming content, and wants the material to feel helpful, relevant, and consistent with mindfulness goals.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Access useful guided meditations and courses",
+        "Find content that supports relaxation and mindfulness",
+        "Use an app whose content feels aligned with their expectations"
+      ],
+      "pain_points": [
+        "Some content feels off topic or not aligned with what they want from a meditation app",
+        "The app experience depends heavily on the quality of the available meditation content",
+        "They may stop using the app if the content does not feel calming or relevant"
+      ],
+      "context": [
+        "Using the app to meditate, relax, or build mindfulness skills",
+        "Exploring different sessions, courses, and voices",
+        "Judging the app largely by the quality of its meditation content"
+      ],
+      "constraints": [
+        "Meditation content should feel relevant to mindfulness and relaxation",
+        "Content quality must remain consistent across sessions and courses",
+        "The app should support a calm and focused user experience"
+      ],
+      "evidence_reviews": [
+        "be4dd362-36cc-4209-9d57-29a349daab99",
+        "98f500cd-0832-4d0c-ab38-16814a2449a0",
+        "70e032cd-283e-49e3-9bb1-64e90d9f335c"
+      ],
+      "notes": "Removed unsupported details about streak syncing, ads, and beauty of the interface. Kept the persona grounded in content quality, relevance, and meditation experience."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Cost Sensitive First Time Evaluator",
+      "description": "A user who wants to try the meditation app before paying or donating and is sensitive to paywalls, upgrade prompts, or unclear claims that the app is free.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Try the app before making any payment or donation",
+        "Access meaningful meditation content for free",
+        "Avoid misleading pricing or pressure to pay upfront"
+      ],
+      "pain_points": [
+        "The app asks for payment or donation before they can properly try it",
+        "Claims that the app is free do not match the onboarding experience",
+        "Paywalls make it hard to judge whether the app is worth using"
+      ],
+      "context": [
+        "Evaluating the app during first use",
+        "Comparing free meditation apps and deciding whether to keep one",
+        "Expecting to test core features before paying"
+      ],
+      "constraints": [
+        "Core app value should be accessible before payment or donation",
+        "Pricing and donation messaging must be clear and not misleading",
+        "Users should be able to evaluate the app without feeling forced to upgrade"
+      ],
+      "evidence_reviews": [
+        "6bad6ebc-22f0-4cea-84be-292e0b54b53a",
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111"
+      ],
+      "notes": "Clarified that this persona is about trial access and paywall expectations. Removed broader claims about all content being free, which were not directly supported."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Habit Building Meditation User",
+      "description": "A user who uses the app as support for building or maintaining a regular meditation habit and values encouragement, routine, and a positive experience that keeps them coming back.",
+      "derived_from_group": "H4",
+      "goals": [
+        "Build a consistent meditation routine",
+        "Feel supported in maintaining regular practice",
+        "Use meditation to improve calmness and well being"
+      ],
+      "pain_points": [
+        "It can be hard to stay consistent with meditation over time",
+        "The app needs to feel encouraging enough to keep them engaged",
+        "If the experience stops feeling helpful, motivation can drop"
+      ],
+      "context": [
+        "Returning to the app regularly as part of a self care routine",
+        "Using the app for calmness, reflection, or mental well being",
+        "Looking for support in making meditation a lasting habit"
+      ],
+      "constraints": [
+        "The app should support repeated and sustained use",
+        "The experience should reinforce motivation to continue meditating",
+        "Meditation sessions should feel worthwhile for ongoing practice"
+      ],
+      "evidence_reviews": [
+        "3d36e52e-a022-45d9-9fd2-7187c9cc48f3",
+        "9bfb825a-fb2c-4bf3-aee3-3c1028b573b3",
+        "8c4f1c7f-06a2-4c2d-9a21-303c28cba2c7"
+      ],
+      "notes": "Kept the focus on habit formation and continued engagement. Removed unsupported assumptions about specific reminders or clinical mental health conditions."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Simplicity Focused Meditation App User",
+      "description": "A user who wants the app to feel clean, easy to navigate, and visually clear so they can quickly find and use meditation features without friction.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Navigate the app easily",
+        "Find meditation features without confusion",
+        "Use an interface that feels clean and straightforward"
+      ],
+      "pain_points": [
+        "Cluttered or awkward interface choices make the app harder to use",
+        "Some design decisions create friction in otherwise simple tasks",
+        "Usability issues reduce the sense of calm the app should provide"
+      ],
+      "context": [
+        "Using the app during quiet moments when low friction matters",
+        "Interacting with menus, controls, and navigation to access sessions",
+        "Evaluating the app partly through its interface and ease of use"
+      ],
+      "constraints": [
+        "The interface should remain simple and easy to understand",
+        "Important actions should be easy to find and complete",
+        "Design should support calm use rather than create confusion"
+      ],
+      "evidence_reviews": [
+        "a112158d-ddba-4081-acda-beae3e8efe6f",
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "2c4899e3-7ce7-4574-837b-7ae26a56d3a8"
+      ],
+      "notes": "Refined the persona to focus on design and usability only. Removed unsupported claims about cross device syncing and manual meditation tracking."
     }
   ]
 }

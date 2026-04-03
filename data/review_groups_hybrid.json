@@ -1,13 +1,114 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "Technical issues with playback, crashes, login, and core app flow",
+      "review_ids": [
+        "a81954ee-ab72-4c62-851c-f7681391f1ad",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "d67ee88b-3421-4be2-a9e6-3a54689f6b70",
+        "a0071735-8a27-4cf6-85d2-9cfc5c93b533",
+        "35be7a6e-e311-425e-a257-8b7f2a56c41c",
+        "04243457-f7c6-4c82-8823-0677eb440406",
+        "36f057a8-708d-4752-88ec-76455f0f386d",
+        "4bec1381-ad94-413f-88ec-a49438b8f52b",
+        "460172af-5b2a-466e-b98c-a25821f24c04",
+        "ce0c4caa-e05e-45ea-b4cd-ec03e3593a2b"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "I love medito, however recently I've had the problem where whenever I try to play a meditation, the app crashes on me. It's very frustrating. Before this, Medito was a marvellous app that taught meditation excellent. Please Medito developers help me 🙏",
+        "Great app, but audio tends to stop when I have my earbuds on."
+      ],
+      "notes": "Removed many generic positive reviews from the automated functionality cluster and narrowed this group to concrete technical or flow problems."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Meditation content quality, variety, and guided session experience",
+      "review_ids": [
+        "be4dd362-36cc-4209-9d57-29a349daab99",
+        "2637f02d-1311-4434-8a79-2ef590dd63ab",
+        "4479f35b-4969-4a34-8ac3-e363815a9e3e",
+        "98f500cd-0832-4d0c-ab38-16814a2449a0",
+        "70e032cd-283e-49e3-9bb1-64e90d9f335c",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111",
+        "99fdff6c-ad1a-424d-98d4-f9d4eb6d663a",
+        "2d76b31d-07b8-4ba4-b4ee-d0e734f505a7",
+        "64eeba24-f9f3-4237-9d16-4e47b3fdf44c",
+        "24300b64-c3c1-4365-9aba-7584641ae812",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae"
+      ],
+      "example_reviews": [
+        "good app for meditation 😊",
+        "It does what it needs to, but I would rather the team focus on mindfulness as opposed to divisive frankfurt school politics"
+      ],
+      "notes": "Used this as the main content group for reviews about meditations, sleep stories, voices, course variety, and overall session quality."
+    },
+    {
+      "group_id": "H3",
+      "theme": "Free access, donation prompts, and perceived value",
+      "review_ids": [
+        "6bad6ebc-22f0-4cea-84be-292e0b54b53a",
+        "3ad7a79f-15b2-4649-99e7-7dc87d6055c0",
+        "6199838b-67dd-440e-8aa0-db3de71635de",
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "032da267-54cd-470f-b081-d6c105a1fa19",
+        "27178658-d633-4938-a84c-f65246464e96"
+      ],
+      "example_reviews": [
+        "It is advertised as a free app with no paywalls but you can't even try the app without a payment demand. Contrary to Medito team comments there is absolutely no way to skip the paywall to test the app on my Android phone. Disappointing.",
+        "not free despite what \"Mike\" mentioned from a previous response. I would like to try it first but no thank you."
+      ],
+      "notes": "Separated monetization and donation feedback from general content praise so free vs paywall comments are no longer mixed with meditation experience."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Habit building, motivation, and personal wellbeing outcomes",
+      "review_ids": [
+        "aad29bf1-a857-4ec9-9d29-3fa2fa94e28b",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "9dadda91-1508-4502-a4ce-bd460f276e14",
+        "7ac3234e-bd56-4924-a409-3416c9635ccd",
+        "e498d9c9-2c9f-4b6c-9ee9-9f7298c48540",
+        "3d36e52e-a022-45d9-9fd2-7187c9cc48f3",
+        "598c4e53-e8d2-444a-a765-7f3ceb07bdf6",
+        "9ee31d57-63cc-4d14-a30a-dfedd4779ffd",
+        "748649dd-a951-4281-8cbe-e2d4501de7df",
+        "1d6a9209-75d4-44a3-b4b6-12fabdd1caa7",
+        "0c8c8007-e648-4c07-8a9e-e00bbf6e5aed",
+        "146c6614-0284-4134-9f56-abd58f555142",
+        "f5ba186c-b907-435f-9aaa-c7b975101f30",
+        "0c2ff4d8-abcc-4ad1-9461-b63f25502d16"
+      ],
+      "example_reviews": [
+        "it's good to fix your mental health.",
+        "made me calmer and helps me sleep, super grateful for this app."
+      ],
+      "notes": "Focused this group on reviews describing results, consistency, or motivation, instead of mixing them with broad praise."
+    },
+    {
+      "group_id": "H5",
+      "theme": "App design, usability, navigation, and feature requests",
+      "review_ids": [
+        "a112158d-ddba-4081-acda-beae3e8efe6f",
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "bb17a883-3523-424e-8f97-9dd3de0e4741",
+        "f31ecf14-9b04-4e75-b753-ded5f046b267",
+        "0595aa68-046f-401b-b902-e5d159e87954",
+        "eb1744ea-adbc-40a3-a724-73fd338554be",
+        "9bfb825a-fb2c-4bf3-aee3-3c1028b573b3",
+        "16076920-894b-4ce5-af66-5a926aff5360",
+        "8ba4f39b-10ee-4950-a185-881fd1569b93",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5",
+        "5f5fb988-ba17-4a25-a0af-2aea4a637fe7",
+        "7c2c0e1b-6b5b-4d6e-8fae-257a75c1786a",
+        "eb2dc99a-a09d-493f-a71e-3cc3b6d52f72"
+      ],
+      "example_reviews": [
+        "Excellent. Please give us the original white logo! 🥲❤️",
+        "I do like this app, I started using it for sleeping but now I am gradually ngoing through the courses. I am not sure how it will aid me in my daily life as of yet, but the courses look good so I am hopeful for a positive change. The only gripe is that while course progress is shared across devices, streaks are not. So if you have more than one device your streak cld be lost because you used your other phone for a few days, get a new one and you have to start from scratch."
+      ],
+      "notes": "Kept interface and usability feedback together, including design preferences and small UX feature requests that were previously scattered across other groups."
     }
   ]
 }
