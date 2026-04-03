@@ -2,11 +2,113 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Free access, donations, and paywall expectations",
+      "review_ids": [
+        "6bad6ebc-22f0-4cea-84be-292e0b54b53a",
+        "3ad7a79f-15b2-4649-99e7-7dc87d6055c0",
+        "6199838b-67dd-440e-8aa0-db3de71635de",
+        "5465eaee-7f35-4ce2-b002-93c545ef4861",
+        "c4e5800d-f320-40c0-ad9d-037a667d6111",
+        "9a7bb5c0-8d34-4536-ae0a-a6c720f5d4fc",
+        "fa417e9c-8b6f-4313-8eb2-8ad04c204cba",
+        "487f60e5-950a-4b11-a4fc-e99d8bb66b45",
+        "08190b18-bd4f-4069-80f2-038c94266386",
+        "2dbdc292-8ab0-44da-b0bb-7aa73be3d05a",
+        "0812e677-4bc8-4bfa-9d36-13a1aa22167e",
+        "b789e2f4-4469-4d03-b984-431478812c58"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "Amazing that this app is completely free with no ads.",
+        "I thought it was free but then I got confused by payment options."
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Sleep, stress, anxiety, and emotional relief",
+      "review_ids": [
+        "bb17a883-3523-424e-8f97-9dd3de0e4741",
+        "efb97a7f-0a34-4722-a0ef-a463b193a7e1",
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "598c4e53-e8d2-444a-a765-7f3ceb07bdf6",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5",
+        "7c2c0e1b-6b5b-4d6e-8fae-257a75c1786a",
+        "5def7031-1870-4c7c-8d50-507d7278f787",
+        "2d423087-0384-40a3-b70c-85b9f52faf77",
+        "4f7e4add-c210-4bfa-9173-34409b21f5de",
+        "e1235541-90db-4186-9034-b3af62fc04b0",
+        "30fb9df7-7985-43a9-9617-5e3e73835796",
+        "f67424b9-8100-4c50-b5f3-89a995bac282"
+      ],
+      "example_reviews": [
+        "This app helps me fall asleep much faster.",
+        "Really useful for reducing my anxiety and stress."
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Guided courses, beginner support, and learning meditation",
+      "review_ids": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea",
+        "2c4899e3-7ce7-4574-837b-7ae26a56d3a8",
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "fa417e9c-8b6f-4313-8eb2-8ad04c204cba",
+        "487f60e5-950a-4b11-a4fc-e99d8bb66b45",
+        "eb1744ea-adbc-40a3-a724-73fd338554be",
+        "b789e2f4-4469-4d03-b984-431478812c58",
+        "5bbde312-88be-4b08-a219-11c1ab2f872a",
+        "e3f8dff0-db7f-45d6-89ac-86ad0ccd5963",
+        "07d31de2-d356-4b76-bc5b-0e67997293a4",
+        "860e248f-50d3-45c9-99ad-6ac9941e4aa4"
+      ],
+      "example_reviews": [
+        "Great guided meditations for beginners.",
+        "The courses helped me build a consistent meditation habit."
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Bugs, playback issues, and app reliability problems",
+      "review_ids": [
+        "a81954ee-ab72-4c62-851c-f7681391f1ad",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "a0071735-8a27-4cf6-85d2-9cfc5c93b533",
+        "3a8afb5f-8f8c-46ca-ba59-d426af625697",
+        "5a7644b9-a2c8-46db-9201-bf0be8653089",
+        "ce0c4caa-e05e-45ea-b4cd-ec03e3593a2b",
+        "5daeefe5-b446-4cea-9652-bd02a970a8e5",
+        "afb75b0b-b7ab-4b7d-a008-01006db1deff",
+        "82db88d7-1ff1-469c-9aa1-b124644e171d",
+        "c1fb63b2-f4b7-415d-b85b-d690cc942a53",
+        "0595aa68-046f-401b-b902-e5d159e87954",
+        "8cc772f9-a93d-467e-8c40-8ae5ee7ec459"
+      ],
+      "example_reviews": [
+        "The audio stops randomly during sessions.",
+        "App crashes and interrupts my meditation."
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "High satisfaction, gratitude, and recommendations",
+      "review_ids": [
+        "2d76b31d-07b8-4ba4-b4ee-d0e734f505a7",
+        "6dfabfc4-e16e-4567-944c-ba99c9346f8f",
+        "64eeba24-f9f3-4237-9d16-4e47b3fdf44c",
+        "3a4b677b-e505-4919-ba92-9bbed85b2f2f",
+        "c59528b3-f759-4d00-9e80-5108728c0697",
+        "7bbda0c0-8bdc-4784-b675-e34e0f8d1d15",
+        "7d79559a-951c-4d38-9ddf-f6e216eed1f4",
+        "e9f325db-c4d3-4644-88ad-5c7a5f6d80d3",
+        "59a3d4a2-d838-4938-94f1-69f5c5100595",
+        "14f6c2ea-d50a-4284-9f9c-364d2bdc2bcc",
+        "d46b4ea0-ac38-4e66-9b60-534468e1eda8",
+        "cf5e9899-34b1-46f0-90ae-3f6ed3080f4f"
+      ],
+      "example_reviews": [
+        "This is one of the best meditation apps I’ve ever used.",
+        "Highly recommend this app to anyone looking to relax."
       ]
     }
-  ]}
+  ]
+}

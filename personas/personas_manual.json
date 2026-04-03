@@ -1,22 +1,154 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Cost Conscious Mindfulness User",
+      "description": "A user who wants access to meditation content without financial pressure and values a free, transparent, and low friction experience.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access meditation content for free or at low cost",
+        "Understand clearly what content is free and what requires payment",
+        "Use an app that feels honest and accessible"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Confusion around donations, subscriptions, or paywalls",
+        "Frustration when payment expectations are not clear",
+        "Concern that a helpful wellness app may become financially inaccessible"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app for personal mindfulness on a regular basis",
+        "Comparing Medito with other meditation apps that charge subscriptions",
+        "Looking for stress relief without committing to recurring payments"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "The app should remain affordable or free to use",
+        "Payment related information should be clearly communicated",
+        "The user may stop using the app if access feels misleading"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "6bad6ebc-22f0-4cea-84be-292e0b54b53a",
+        "3ad7a79f-15b2-4649-99e7-7dc87d6055c0"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Stressed User Seeking Relief",
+      "description": "A user who turns to the app for help with stress, anxiety, emotional overwhelm, or sleep and wants calming support that is easy to access.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Reduce stress and anxiety through meditation",
+        "Fall asleep more easily",
+        "Access calming sessions during difficult moments"
+      ],
+      "pain_points": [
+        "Feeling overwhelmed, anxious, or unable to relax",
+        "Difficulty sleeping or calming down at night",
+        "Need for immediate support when emotionally strained"
+      ],
+      "context": [
+        "Using the app during stressful days or before sleep",
+        "Opening the app when feeling anxious or mentally overloaded",
+        "Relying on meditation as part of emotional self care"
+      ],
+      "constraints": [
+        "The app should be easy to use when the user is stressed",
+        "Sessions should be easy to find quickly",
+        "Content should feel calming and supportive rather than overwhelming"
+      ],
+      "evidence_reviews": [
+        "bb17a883-3523-424e-8f97-9dd3de0e4741",
+        "efb97a7f-0a34-4722-a0ef-a463b193a7e1"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Beginner Building a Meditation Habit",
+      "description": "A user who is relatively new to meditation and depends on guided sessions and structured courses to learn and stay consistent.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Learn meditation in a beginner friendly way",
+        "Follow a structured path instead of choosing randomly",
+        "Build a regular meditation habit"
+      ],
+      "pain_points": [
+        "Not knowing where to start",
+        "Difficulty staying consistent without guidance",
+        "Feeling unsure whether the app is suitable for beginners"
+      ],
+      "context": [
+        "Using the app as an introduction to meditation",
+        "Following guided sessions and beginner courses",
+        "Trying to develop a healthy routine over time"
+      ],
+      "constraints": [
+        "Guidance should be clear and easy to follow",
+        "Content should not assume prior meditation experience",
+        "The app should support gradual habit building"
+      ],
+      "evidence_reviews": [
+        "843a80ec-f2f9-4558-b720-92341cc106bc",
+        "19a29b2c-7db1-4da7-a523-6bdb6cf995ea"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Reliability Focused Regular User",
+      "description": "A user who already values the app’s content but needs it to work reliably without crashes, playback issues, or interruptions during sessions.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Complete meditation sessions without interruption",
+        "Use audio content reliably every time",
+        "Trust the app to work consistently during regular use"
+      ],
+      "pain_points": [
+        "Audio stopping unexpectedly",
+        "Crashes that interrupt meditation",
+        "Bugs that reduce trust in the app experience"
+      ],
+      "context": [
+        "Using the app during focused meditation sessions",
+        "Opening the app repeatedly as part of a routine",
+        "Depending on uninterrupted playback for relaxation"
+      ],
+      "constraints": [
+        "Playback must remain stable during sessions",
+        "The app should recover gracefully from errors",
+        "Technical issues should not interrupt the user’s routine"
+      ],
+      "evidence_reviews": [
+        "a81954ee-ab72-4c62-851c-f7681391f1ad",
+        "c46d2602-7094-409b-9eda-6699be423d34"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Loyal Advocate of the App",
+      "description": "A satisfied user who has had a strongly positive experience with the app and is likely to recommend it to others because of its value and impact.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Continue using a meditation app that feels valuable and supportive",
+        "Recommend the app to friends or family",
+        "Keep access to a positive and high quality meditation experience"
+      ],
+      "pain_points": [
+        "Worry that quality or accessibility could decline over time",
+        "Disappointment if the app loses the qualities that made it valuable",
+        "Frustration if a trusted app becomes harder to recommend"
+      ],
+      "context": [
+        "Using the app regularly with high satisfaction",
+        "Comparing it favorably to other meditation apps",
+        "Sharing recommendations based on personal experience"
+      ],
+      "constraints": [
+        "The app should maintain a strong overall user experience",
+        "Quality and trust should be preserved over time",
+        "The experience should remain simple enough to recommend confidently"
+      ],
+      "evidence_reviews": [
+        "2d76b31d-07b8-4ba4-b4ee-d0e734f505a7",
+        "6dfabfc4-e16e-4567-944c-ba99c9346f8f"
+      ]
+    }
+  ]
+}

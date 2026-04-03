@@ -3,13 +3,112 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "Stable and user-friendly app",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the meditation app",
+        "Verify that the app does not crash or display technical issues",
+        "Close and reopen the app to ensure stability"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The app remains stable and functional without crashes or technical issues."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR_auto_2",
+      "scenario": "Variety of meditation content",
+      "steps": [
+        "Open the meditation app",
+        "Browse through the available meditation sessions",
+        "Verify the variety of meditation content"
+      ],
+      "expected_result": "The app offers a range of meditation sessions catering to different user needs."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR_auto_3",
+      "scenario": "Track progress",
+      "steps": [
+        "Complete a few meditation sessions",
+        "View progress and verify the accurate record of sessions",
+        "Check for any discrepancies in the recorded sessions"
+      ],
+      "expected_result": "The app accurately tracks and displays the user's meditation sessions."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR_auto_4",
+      "scenario": "Peaceful and positive experience",
+      "steps": [
+        "Open the meditation app",
+        "Use the app for a meditation session",
+        "Evaluate the overall experience for calmness and relaxation"
+      ],
+      "expected_result": "The app provides a peaceful and positive experience, leaving the user feeling calm and relaxed."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR_auto_5",
+      "scenario": "Free guided meditations",
+      "steps": [
+        "Open the meditation app",
+        "Search for guided meditations",
+        "Verify that guided meditations are available at no cost"
+      ],
+      "expected_result": "The app offers guided meditations for free, with no hidden costs or charges."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR_auto_6",
+      "scenario": "No intrusive paywalls or ads",
+      "steps": [
+        "Open the meditation app",
+        "Navigate through the content",
+        "Verify the absence of paywalls or ads"
+      ],
+      "expected_result": "The app does not display intrusive paywalls or ads, providing an uninterrupted experience."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR_auto_7",
+      "scenario": "Establish a consistent meditation habit",
+      "steps": [
+        "Open the meditation app",
+        "Set a meditation goal",
+        "Verify that reminders and motivation are provided to meditate"
+      ],
+      "expected_result": "The app helps users establish a consistent meditation habit by providing reminders and motivation."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR_auto_8",
+      "scenario": "Simple and easy-to-use app",
+      "steps": [
+        "Open the meditation app",
+        "Navigate through the app",
+        "Evaluate the ease of use and navigation"
+      ],
+      "expected_result": "The app is simple, easy to use, and has a clean design, making it user-friendly."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR_auto_9",
+      "scenario": "Track progress across devices",
+      "steps": [
+        "Log in to the app on one device",
+        "Complete a meditation session",
+        "Log in to the app on another device and verify synced progress"
+      ],
+      "expected_result": "The app syncs user progress across devices, allowing seamless access to meditation history."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR_auto_10",
+      "scenario": "Track meditations done outside the app",
+      "steps": [
+        "Open the meditation app",
+        "Log a meditation session done outside the app",
+        "Verify that the session is tracked accurately"
+      ],
+      "expected_result": "The app allows users to log meditations done outside the app and tracks them accurately."
     }
   ]
 }

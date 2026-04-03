@@ -1,16 +1,230 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Display content access type before playback for a free session",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app",
+        "Navigate to a meditation session marked as free",
+        "Open the session details page",
+        "Observe the access information shown before playback"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The session details clearly indicate that the content is free before the user starts playback."
+    },
+    {
+      "test_id": "T2",
+      "requirement_id": "FR1",
+      "scenario": "Display content access type before playback for paid or donation based content",
+      "steps": [
+        "Open the app",
+        "Navigate to a meditation session that is donation based or requires payment",
+        "Open the session details page",
+        "Observe the access information shown before playback"
+      ],
+      "expected_result": "The session details clearly indicate that the content is donation based or requires payment before playback begins."
+    },
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario": "Allow playback of free content without payment",
+      "steps": [
+        "Open the app",
+        "Navigate to a free meditation session",
+        "Select the play option"
+      ],
+      "expected_result": "The free meditation session starts without requiring payment or subscription."
+    },
+    {
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario": "Do not block access to free content with a payment prompt",
+      "steps": [
+        "Open the app",
+        "Navigate to available free content",
+        "Attempt to open and play the content"
+      ],
+      "expected_result": "The system allows access to the free content and does not force the user to make a payment."
+    },
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
+      "scenario": "Show sleep category in the app",
+      "steps": [
+        "Open the app",
+        "Navigate to the content categories or browse section",
+        "Review the list of available categories"
+      ],
+      "expected_result": "A sleep category is visible to the user."
+    },
+    {
+      "test_id": "T6",
+      "requirement_id": "FR3",
+      "scenario": "Show stress relief and anxiety categories in the app",
+      "steps": [
+        "Open the app",
+        "Navigate to the content categories or browse section",
+        "Review the list of available categories"
+      ],
+      "expected_result": "Stress relief and anxiety related categories are visible to the user."
+    },
+    {
+      "test_id": "T7",
+      "requirement_id": "FR4",
+      "scenario": "Start a calming session from the home screen within three steps",
+      "steps": [
+        "Open the app to the home screen",
+        "Select a visible calming category or recommended session",
+        "Select a meditation session",
+        "Start playback"
+      ],
+      "expected_result": "The user is able to start a calming session within three interactions from the home screen."
+    },
+    {
+      "test_id": "T8",
+      "requirement_id": "FR4",
+      "scenario": "Verify easy access to a calming session during stress",
+      "steps": [
+        "Open the app to the home screen",
+        "Look for quick access options for stress, anxiety, or calming sessions",
+        "Start one of the suggested sessions"
+      ],
+      "expected_result": "A calming session can be started quickly from the home screen without unnecessary navigation."
+    },
+    {
+      "test_id": "T9",
+      "requirement_id": "FR5",
+      "scenario": "Provide beginner friendly guided courses",
+      "steps": [
+        "Open the app",
+        "Navigate to the courses or guided content section",
+        "Review the available course options"
+      ],
+      "expected_result": "The app provides at least one structured beginner meditation course with guided sessions."
+    },
+    {
+      "test_id": "T10",
+      "requirement_id": "FR5",
+      "scenario": "Allow a new user to identify where to start",
+      "steps": [
+        "Open the app as a new user",
+        "Navigate to the main content or course area",
+        "Look for beginner focused guidance or entry points"
+      ],
+      "expected_result": "The system presents clear beginner friendly guidance or a structured starting point for new users."
+    },
+    {
+      "test_id": "T11",
+      "requirement_id": "FR6",
+      "scenario": "Update progress after completing a session",
+      "steps": [
+        "Open a meditation course",
+        "Start and complete one session",
+        "Return to the course overview page"
+      ],
+      "expected_result": "The course progress is updated to reflect the completed session."
+    },
+    {
+      "test_id": "T12",
+      "requirement_id": "FR6",
+      "scenario": "Preserve progress across sessions",
+      "steps": [
+        "Open a meditation course",
+        "Complete one or more sessions",
+        "Close the app",
+        "Reopen the app and return to the same course"
+      ],
+      "expected_result": "The system retains and displays the user's previously recorded course progress."
+    },
+    {
+      "test_id": "T13",
+      "requirement_id": "FR7",
+      "scenario": "Play a meditation session without unexpected audio interruption",
+      "steps": [
+        "Open the app",
+        "Start a meditation session",
+        "Allow the session to play for several minutes"
+      ],
+      "expected_result": "The audio continues without stopping unexpectedly during the session."
+    },
+    {
+      "test_id": "T14",
+      "requirement_id": "FR7",
+      "scenario": "Maintain stable playback during normal session use",
+      "steps": [
+        "Open the app",
+        "Select a meditation session",
+        "Play the session from beginning to end"
+      ],
+      "expected_result": "The session plays from start to finish without crashes or playback interruptions."
+    },
+    {
+      "test_id": "T15",
+      "requirement_id": "FR8",
+      "scenario": "Show an error message when playback fails",
+      "steps": [
+        "Open the app",
+        "Start a meditation session",
+        "Simulate or trigger a playback failure",
+        "Observe the system response"
+      ],
+      "expected_result": "The system displays a clear error message when playback fails."
+    },
+    {
+      "test_id": "T16",
+      "requirement_id": "FR8",
+      "scenario": "Provide recovery options after playback failure",
+      "steps": [
+        "Open the app",
+        "Start a meditation session",
+        "Simulate or trigger a playback failure",
+        "Check the available recovery actions"
+      ],
+      "expected_result": "The system provides an option to resume or restart the session after playback failure."
+    },
+    {
+      "test_id": "T17",
+      "requirement_id": "FR9",
+      "scenario": "Display multiple categories of meditation content",
+      "steps": [
+        "Open the app",
+        "Navigate to the browse or content section",
+        "Review the available categories and session types"
+      ],
+      "expected_result": "The system displays multiple meditation categories and content types for users to browse."
+    },
+    {
+      "test_id": "T18",
+      "requirement_id": "FR9",
+      "scenario": "Allow users to explore a variety of session options",
+      "steps": [
+        "Open the app",
+        "Navigate to the browse or discover section",
+        "Inspect the list of available sessions"
+      ],
+      "expected_result": "The user can browse a wide range of session options instead of only a limited set."
+    },
+    {
+      "test_id": "T19",
+      "requirement_id": "FR10",
+      "scenario": "Ensure no intrusive ads appear during navigation",
+      "steps": [
+        "Open the app",
+        "Navigate through the home screen, categories, and session pages",
+        "Observe whether any intrusive advertisements appear"
+      ],
+      "expected_result": "No intrusive advertisements are displayed while the user navigates the app."
+    },
+    {
+      "test_id": "T20",
+      "requirement_id": "FR10",
+      "scenario": "Ensure no intrusive ads appear during meditation playback",
+      "steps": [
+        "Open the app",
+        "Start a meditation session",
+        "Observe the screen and playback experience during the session"
+      ],
+      "expected_result": "No intrusive advertisements interrupt the user during meditation playback."
     }
   ]
 }

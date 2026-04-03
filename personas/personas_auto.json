@@ -1,0 +1,88 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Mindful Meditator",
+      "description": "A regular meditator seeking a reliable and feature-rich app to support their mindfulness practice.",
+      "goals": [
+        "To have a stable and user-friendly meditation app",
+        "To access a variety of meditation content",
+        "To track progress and maintain a consistent practice"
+      ],
+      "pain_points": [
+        "App crashes and technical issues",
+        "Limited customization options",
+        "Inconsistent tracking of progress"
+      ],
+      "context": "The user regularly practices meditation and uses the app daily, often in bed or during quiet moments. They value a reliable app that can help them maintain a consistent practice and track their progress.",
+      "source_review_group": "G1"
+    },
+    {
+      "id": "P1",
+      "name": "Mindful Seeker",
+      "description": "A user seeking a peaceful and positive experience through meditation, looking for a helpful and beautiful app.",
+      "goals": [
+        "Find a meditation app that provides a peaceful experience",
+        "Improve mental well-being through meditation",
+        "Use a beautiful and well-designed app"
+      ],
+      "pain_points": [
+        "Difficulty maintaining a meditation streak across devices",
+        "Encountering divisive or unwanted content in meditation apps",
+        "Being bombarded with ads in free meditation apps"
+      ],
+      "context": "The user is looking for a meditation app that provides a serene experience, often using it daily to relax and quiet their mind. They value a well-designed app that offers high-quality guided meditation, preferably for free or at a low cost.",
+      "source_review_group": "G2"
+    },
+    {
+      "id": "P1",
+      "name": "Value-Conscious Meditator",
+      "description": "A user seeking free meditation resources without paywalls or forced upgrades.",
+      "goals": [
+        "Try meditation apps without upfront payment",
+        "Access guided meditations for free",
+        "Avoid apps with intrusive paywalls or ads"
+      ],
+      "pain_points": [
+        "Encountering paywalls or donation demands before trying an app",
+        "Feeling forced to upgrade or pay for meditation content",
+        "Finding apps that are genuinely free without hidden costs"
+      ],
+      "context": "The user is looking for a meditation app that offers a free experience without demanding payment or donations upfront. They value being able to try an app without being asked for money and expect a range of free meditation content.",
+      "source_review_group": "G3"
+    },
+    {
+      "id": "P1",
+      "name": "Mindful Achiever",
+      "description": "A motivated individual seeking to establish a consistent meditation habit for a better life.",
+      "goals": [
+        "Establish a consistent meditation habit",
+        "Improve mental well-being",
+        "Increase self-awareness and calmness"
+      ],
+      "pain_points": [
+        "Difficulty staying consistent with meditation practice",
+        "Lack of motivation or reminders to meditate"
+      ],
+      "context": "The user is likely someone who values mindfulness and meditation as a way to improve their mental health and well-being. They may be individuals who have experienced stress, anxiety, or other challenges and have found meditation to be a helpful tool.",
+      "source_review_group": "G4"
+    },
+    {
+      "id": "P5",
+      "name": "Mindful User",
+      "description": "A user seeking a simple and easy-to-use meditation app with a clean design.",
+      "goals": [
+        "to establish a meditation habit",
+        "to easily track progress",
+        "to access guided meditations"
+      ],
+      "pain_points": [
+        "losing track of progress when changing devices",
+        "difficulty finding certain features due to cluttered design",
+        "inability to track meditations done without the app"
+      ],
+      "context": "The user is looking for a meditation app that is easy to use, has a clean and simple design, and allows them to establish a consistent meditation habit. They value features such as guided meditations, progress tracking, and a user-friendly interface.",
+      "source_review_group": "G5"
+    }
+  ]
+}

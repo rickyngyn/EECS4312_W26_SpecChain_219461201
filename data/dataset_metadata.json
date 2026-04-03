@@ -1,0 +1,20 @@
+{
+  "app_name": "Medito",
+  "app_id": "meditofoundation.medito",
+  "raw_dataset_size": 1500,
+  "cleaned_dataset_size": 1169,
+  "collection_method": "Google Play reviews collected programmatically in src/01_collect_or_import.py using google-play-scraper",
+  "cleaning_decisions": [
+    "Removed duplicate reviews",
+    "Removed empty entries",
+    "Removed extremely short reviews with fewer than 3 words after cleaning",
+    "Removed punctuation",
+    "Removed special characters",
+    "Removed emojis",
+    "Converted numbers to text",
+    "Removed extra whitespace",
+    "Converted all words to lowercase",
+    "Removed stop words",
+    "Lemmatized the reviews"
+  ]
+}

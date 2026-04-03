@@ -1,3 +1,23 @@
 {
-    "prompt": ""
+  "review_grouping": {
+    "task": "Automatic review grouping",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "theme_generation_prompt": "Create exactly 5 review group themes from a sample of cleaned reviews. Return only JSON with id, theme, and description.",
+    "assignment_prompt": "Assign each review to exactly one of the 5 predefined group IDs. Return only JSON with review_id and group_id."
+  },
+  "persona_generation": {
+    "task": "Automatic persona generation",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "persona_prompt_template": "Create one grounded persona from a review group using only the theme, description, and grouped reviews. Include id, name, description, goals, pain_points, context, and source_review_group."
+  },
+  "spec_generation": {
+    "task": "Automatic specification generation",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "spec_prompt_template": "Generate at least 10 grounded and testable functional requirements from automated personas. Each requirement must include requirement_id, description, source_persona, traceability, and acceptance_criteria in Given When Then form."
+  },
+  "test_generation": {
+    "task": "Automatic validation test generation",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "test_prompt_template": "Generate at least one validation test per requirement. Each test must include test_id, requirement_id, scenario, steps, and expected_result."
+  }
 }
