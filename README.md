@@ -9,12 +9,13 @@ Please update to include:
 - Exact commands to run pipeline
 
 # example
-Application: [Calm]
+
+Application: [Fitness Tracking App]
 
 Dataset:
-- reviews_raw.jsonl contains the collected reviews.
-- reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- reviews_raw.jsonl contains the collected reviews scraped from app store sources.
+- reviews_clean.jsonl contains the cleaned dataset after preprocessing.
+- The cleaned dataset contains 1169 reviews.
 
 Repository Structure:
 - data/ contains datasets and review groups
@@ -27,7 +28,5 @@ Repository Structure:
 
 How to Run:
 1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
-
+2. python src/run_all.py
+3. Open metrics/metrics_summary.json for comparison results

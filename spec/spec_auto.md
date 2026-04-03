@@ -1,69 +1,69 @@
 # Requirement ID: FR_auto_1
-- Description: [The system shall provide a stable and user-friendly meditation app to support a consistent practice.]
+- Description: [The system shall allow users to track their meditation progress consistently.]
 
-- Source Persona: [Mindful Meditator]
+- Source Persona: [Mindful User]
 - Traceability: [Derived from review group G1]
-- Acceptance Criteria: [Given a user with a meditation practice, When they open the app, Then they shall not experience crashes or technical issues.]
+- Acceptance Criteria: [Given a user has completed a meditation session, When they view their progress, Then their session history is displayed accurately.]
 
 # Requirement ID: FR_auto_2
-- Description: [The system shall offer a variety of meditation content to cater to different user needs.]
+- Description: [The system shall provide access to a variety of meditation content.]
 
-- Source Persona: [Mindful Meditator]
+- Source Persona: [Mindful User]
 - Traceability: [Derived from review group G1]
-- Acceptance Criteria: [Given a user searching for meditation content, When they browse the app, Then they shall find a range of meditation sessions.]
+- Acceptance Criteria: [Given a user is browsing meditation content, When they search for a specific type of meditation, Then relevant results are displayed.]
 
 # Requirement ID: FR_auto_3
-- Description: [The system shall allow users to track their progress and maintain a consistent practice.]
+- Description: [The system shall be stable and easy to use.]
 
-- Source Persona: [Mindful Meditator]
+- Source Persona: [Mindful User]
 - Traceability: [Derived from review group G1]
-- Acceptance Criteria: [Given a user who has completed meditation sessions, When they view their progress, Then they shall see an accurate record of their sessions.]
+- Acceptance Criteria: [Given a user is using the app, When they encounter a technical issue, Then the app recovers without data loss.]
 
 # Requirement ID: FR_auto_4
-- Description: [The system shall provide a peaceful and positive experience through meditation.]
+- Description: [The system shall not have paywalls or demands for donations before trying the app.]
 
-- Source Persona: [Mindful Seeker]
+- Source Persona: [Value-Conscious Meditator]
 - Traceability: [Derived from review group G2]
-- Acceptance Criteria: [Given a user seeking a peaceful experience, When they use the app, Then they shall feel calm and relaxed.]
+- Acceptance Criteria: [Given a new user is onboarding, When they start a free trial, Then no payment information is requested.]
 
 # Requirement ID: FR_auto_5
-- Description: [The system shall allow users to access guided meditations for free.]
+- Description: [The system shall offer a free experience or low-cost option to try before committing to a paid subscription.]
 
 - Source Persona: [Value-Conscious Meditator]
-- Traceability: [Derived from review group G3]
-- Acceptance Criteria: [Given a user searching for free meditation content, When they browse the app, Then they shall find guided meditations available at no cost.]
+- Traceability: [Derived from review group G2]
+- Acceptance Criteria: [Given a user is considering a paid plan, When they view pricing options, Then a free trial or low-cost option is available.]
 
 # Requirement ID: FR_auto_6
-- Description: [The system shall avoid intrusive paywalls or ads.]
+- Description: [The system shall help users quiet their mind and reduce stress and anxiety.]
 
-- Source Persona: [Value-Conscious Meditator]
+- Source Persona: [Mindful Seeker]
 - Traceability: [Derived from review group G3]
-- Acceptance Criteria: [Given a user using the app, When they navigate through the content, Then they shall not encounter paywalls or ads.]
+- Acceptance Criteria: [Given a user is meditating, When they follow a guided session, Then they report reduced stress levels.]
 
 # Requirement ID: FR_auto_7
-- Description: [The system shall help users establish a consistent meditation habit.]
+- Description: [The system shall allow users to establish a daily meditation habit.]
 
-- Source Persona: [Mindful Achiever]
+- Source Persona: [Mindful User]
 - Traceability: [Derived from review group G4]
-- Acceptance Criteria: [Given a user who wants to establish a meditation habit, When they use the app, Then they shall receive reminders and motivation to meditate.]
+- Acceptance Criteria: [Given a user sets a daily meditation goal, When they complete sessions, Then their streak is tracked accurately.]
 
 # Requirement ID: FR_auto_8
-- Description: [The system shall provide a simple and easy-to-use meditation app with a clean design.]
+- Description: [The system shall send daily reminders or notifications to support habit formation.]
 
 - Source Persona: [Mindful User]
-- Traceability: [Derived from review group G5]
-- Acceptance Criteria: [Given a user seeking a simple app, When they open the app, Then they shall find it easy to navigate and use.]
+- Traceability: [Derived from review group G4]
+- Acceptance Criteria: [Given a user enables reminders, When it's time for a meditation session, Then a notification is sent.]
 
 # Requirement ID: FR_auto_9
-- Description: [The system shall allow users to easily track progress across devices.]
+- Description: [The system shall have a simple and accessible design.]
 
-- Source Persona: [Mindful User]
-- Traceability: [Derived from review group G5]
-- Acceptance Criteria: [Given a user who changes devices, When they log in to the app, Then their progress shall be synced across devices.]
+- Source Persona: [Mindful Seeker]
+- Traceability: [Derived from review group G3]
+- Acceptance Criteria: [Given a new user is onboarding, When they navigate the app, Then they can easily find meditation sessions.]
 
 # Requirement ID: FR_auto_10
-- Description: [The system shall provide guided meditations and allow users to track meditations done without the app.]
+- Description: [The system shall be completely free to use.]
 
-- Source Persona: [Mindful User]
+- Source Persona: [Satisfied Meditator]
 - Traceability: [Derived from review group G5]
-- Acceptance Criteria: [Given a user who wants to track their meditation practice, When they use the app, Then they shall be able to log meditations done outside the app.]
+- Acceptance Criteria: [Given a user is using the app, When they view the pricing options, Then no payment is required.]

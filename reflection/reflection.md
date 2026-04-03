@@ -1,5 +1,13 @@
-# Application: [Calm] 
-- Most important difference between pipelines: [The automated pipeline produced broader personas, while the manual pipeline produced more focused personas grounded in specific review groups.]
-- Most useful pipeline: [The hybrid pipeline produced the most balanced outputs because it preserved automation speed while improving clarity and traceability.] 
-- Most surprising finding: [Several automated requirements were grammatically correct but too vague to support reliable test generation.]
-- Observed weakness in the automated pipeline: [Some personas included unsupported assumptions that were not clearly grounded in the reviews.]
+# Application: [Meditation & Sleep App]
+
+- Most important difference between pipelines: 
+The automated pipeline was fast but sometimes grouped unrelated reviews, while the manual pipeline was slower but more accurate. The hybrid pipeline fixed those issues.
+
+- Most useful pipeline: 
+The hybrid pipeline was the most useful because it combined automation with manual corrections, making the outputs clearer and more reliable.
+
+- Most surprising finding: 
+Some automated requirements looked correct at first but were actually too vague to be properly tested.
+
+- Observed weakness in the automated pipeline: 
+The automated pipeline sometimes created personas and requirements that were not clearly supported by the reviews.

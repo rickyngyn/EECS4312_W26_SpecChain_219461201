@@ -3,112 +3,112 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Stable and user-friendly app",
+      "scenario": "User views meditation history",
       "steps": [
-        "Launch the meditation app",
-        "Verify that the app does not crash or display technical issues",
-        "Close and reopen the app to ensure stability"
+        "User completes a meditation session",
+        "User navigates to their progress page",
+        "User views their session history"
       ],
-      "expected_result": "The app remains stable and functional without crashes or technical issues."
+      "expected_result": "The user's session history is displayed accurately"
     },
     {
       "test_id": "T_auto_2",
       "requirement_id": "FR_auto_2",
-      "scenario": "Variety of meditation content",
+      "scenario": "User searches for meditation content",
       "steps": [
-        "Open the meditation app",
-        "Browse through the available meditation sessions",
-        "Verify the variety of meditation content"
+        "User navigates to the meditation content page",
+        "User searches for a specific type of meditation",
+        "User views the search results"
       ],
-      "expected_result": "The app offers a range of meditation sessions catering to different user needs."
+      "expected_result": "Relevant search results are displayed"
     },
     {
       "test_id": "T_auto_3",
       "requirement_id": "FR_auto_3",
-      "scenario": "Track progress",
+      "scenario": "App recovers from technical issue",
       "steps": [
-        "Complete a few meditation sessions",
-        "View progress and verify the accurate record of sessions",
-        "Check for any discrepancies in the recorded sessions"
+        "User encounters a technical issue while using the app",
+        "App recovers from the issue",
+        "User verifies data integrity"
       ],
-      "expected_result": "The app accurately tracks and displays the user's meditation sessions."
+      "expected_result": "The app recovers without data loss"
     },
     {
       "test_id": "T_auto_4",
       "requirement_id": "FR_auto_4",
-      "scenario": "Peaceful and positive experience",
+      "scenario": "User starts a free trial",
       "steps": [
-        "Open the meditation app",
-        "Use the app for a meditation session",
-        "Evaluate the overall experience for calmness and relaxation"
+        "New user starts a free trial",
+        "User views the app's features",
+        "User checks for payment requests"
       ],
-      "expected_result": "The app provides a peaceful and positive experience, leaving the user feeling calm and relaxed."
+      "expected_result": "No payment information is requested"
     },
     {
       "test_id": "T_auto_5",
       "requirement_id": "FR_auto_5",
-      "scenario": "Free guided meditations",
+      "scenario": "User views pricing options",
       "steps": [
-        "Open the meditation app",
-        "Search for guided meditations",
-        "Verify that guided meditations are available at no cost"
+        "User navigates to the pricing options page",
+        "User views available plans",
+        "User checks for free trial or low-cost option"
       ],
-      "expected_result": "The app offers guided meditations for free, with no hidden costs or charges."
+      "expected_result": "A free trial or low-cost option is available"
     },
     {
       "test_id": "T_auto_6",
       "requirement_id": "FR_auto_6",
-      "scenario": "No intrusive paywalls or ads",
+      "scenario": "User follows a guided meditation",
       "steps": [
-        "Open the meditation app",
-        "Navigate through the content",
-        "Verify the absence of paywalls or ads"
+        "User starts a guided meditation session",
+        "User follows the guided session",
+        "User reports stress levels after the session"
       ],
-      "expected_result": "The app does not display intrusive paywalls or ads, providing an uninterrupted experience."
+      "expected_result": "The user reports reduced stress levels"
     },
     {
       "test_id": "T_auto_7",
       "requirement_id": "FR_auto_7",
-      "scenario": "Establish a consistent meditation habit",
+      "scenario": "User tracks daily meditation goal",
       "steps": [
-        "Open the meditation app",
-        "Set a meditation goal",
-        "Verify that reminders and motivation are provided to meditate"
+        "User sets a daily meditation goal",
+        "User completes meditation sessions",
+        "User views their streak"
       ],
-      "expected_result": "The app helps users establish a consistent meditation habit by providing reminders and motivation."
+      "expected_result": "The user's streak is tracked accurately"
     },
     {
       "test_id": "T_auto_8",
       "requirement_id": "FR_auto_8",
-      "scenario": "Simple and easy-to-use app",
+      "scenario": "User receives daily reminder",
       "steps": [
-        "Open the meditation app",
-        "Navigate through the app",
-        "Evaluate the ease of use and navigation"
+        "User enables daily reminders",
+        "User waits for the scheduled reminder time",
+        "User verifies the notification"
       ],
-      "expected_result": "The app is simple, easy to use, and has a clean design, making it user-friendly."
+      "expected_result": "A notification is sent at the scheduled time"
     },
     {
       "test_id": "T_auto_9",
       "requirement_id": "FR_auto_9",
-      "scenario": "Track progress across devices",
+      "scenario": "New user navigates the app",
       "steps": [
-        "Log in to the app on one device",
-        "Complete a meditation session",
-        "Log in to the app on another device and verify synced progress"
+        "New user onboards",
+        "User navigates the app",
+        "User searches for meditation sessions"
       ],
-      "expected_result": "The app syncs user progress across devices, allowing seamless access to meditation history."
+      "expected_result": "The user can easily find meditation sessions"
     },
     {
       "test_id": "T_auto_10",
       "requirement_id": "FR_auto_10",
-      "scenario": "Track meditations done outside the app",
+      "scenario": "User views pricing options",
       "steps": [
-        "Open the meditation app",
-        "Log a meditation session done outside the app",
-        "Verify that the session is tracked accurately"
+        "User navigates to the pricing options page",
+        "User views available plans",
+        "User checks for payment requirements"
       ],
-      "expected_result": "The app allows users to log meditations done outside the app and tracks them accurately."
+      "expected_result": "No payment is required to use the app"
     }
   ]
 }
